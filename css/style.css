@@ -23,7 +23,7 @@ header{
     background-color: black;
 }
 
-nav ul{ 
+header ul{ 
     margin: 0px;
     list-style: none;
     display: flex;
