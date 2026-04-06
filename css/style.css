@@ -1,12 +1,53 @@
 body{
-    padding: 15px 200px;
+    margin: 0px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
+main{
+    padding: 0px 200px;
+}
+
 p{
-    padding: 50px;
+    padding: 30px;
     border-radius: 15px;
     background-color: white;
     text-align: left;
-    text-shadow: 2px 2px 5px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 5px lightgray, -2px -2px 5px, lightgray 2px -2px 5px, lightgray -2px 2px 5px;
     font-size: medium;
+}
+
+header{
+
+    background-color: black;
+}
+
+nav ul{ 
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li{
+    padding: 20px;
+}
+nav ul li:hover{
+    background-color: grey;
+}
+
+header ul a{
+    color:  white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.p2{
+    background-image: url('../images/dorada.jpg.webp'),url(../images/pacman.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    padding: 100px;
+    background-position: top left,top right;
+    box-shadow: 3px 3px 15px goldenrod;
 }
