@@ -33,10 +33,18 @@ header ul{
 nav ul li{
     padding: 20px;
 }
+ul li:hover{
+    background-color: blueviolet;
+}
+
 nav ul li:hover{
     background-color: grey;
 }
 
+ol li:hover{
+    background-color: aquamarine;
+    
+}
 header ul a{
     color:  white;
     text-decoration: none;
